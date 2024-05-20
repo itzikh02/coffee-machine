@@ -1,61 +1,53 @@
+/* App.css */
+
 .coffee-machine {
   display: flex;
-
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #3e2723;
+  background-color: #f5f5f5;
 }
 
 .coffee-machine-body {
-  background-color: #a1887f;
-  padding: 40px;
-  border-radius: 15px;
-  display: flex;
-
-  justify-content: stretch;
-  align-items: top;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   width: 800px;
 }
 
 .coffee-machine-screen {
-  background-color: #6d4c41;
+  background-color: #f0f0f0;
   padding: 20px;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-
 .title {
-  color: #fff;
-  margin-bottom: 10px;
+  color: #333;
+  margin-bottom: 20px;
   text-align: center;
 }
 
+/* App.css */
+
 .options {
   display: flex;
+  gap: 20px;
   flex-direction: column;
   align-items: center;
 }
 
-.options > * {
- width: 100%;
- text-align: center;
+.select-wrapper {
+  width: 100%;
 }
 
-label {
-  color: #fff;
-  margin-bottom: 5px;
+.select-box {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-input[type="number"] {
-  margin-bottom: 10px;
-}
 
 .warning {
   color: red;
@@ -65,29 +57,29 @@ input[type="number"] {
 
 .toggle-button {
   padding: 10px 20px;
-  background-color: #4a372e;
+  background-color: #6d4c41;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 50%;
 }
 
 .toggle-button:hover {
-  background-color: #6c5247;
+  background-color: #5c3b2f;
 }
 
 .steps {
-  background-color: #6d4c41;
+  background-color: #f0f0f0;
+  width: 100%;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .step-title {
-  color: #fff;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 ol {
@@ -96,7 +88,7 @@ ol {
 
 li {
   margin-bottom: 10px;
-  color: #f5f5f5;
+  color: #666;
 }
 
 .coffee-machine-content {
