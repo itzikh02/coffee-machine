@@ -8,6 +8,6 @@ Behind the scenes, ChatGPT, an AI language model developed by OpenAI, was used t
 
 Whether you're a coffee aficionado looking to perfect your brewing skills or a beginner eager to learn the art of coffee-making, the Coffee Machine Simulator is your go-to platform for mastering the art of crafting the perfect cup of coffee.
 
-**Credits:**
+## Credits:
 - Created by Itzik Hanan
 - Built with React.js and (mostly) ChatGPT
